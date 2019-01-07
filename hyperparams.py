@@ -16,7 +16,7 @@ class Hyperparams:
     logdir = 'logdir' # 模型保存目录
     
     # 模型超参
-    maxlen = 100    #句子中词的最大数量
+    maxlen = 226    #句子中词的最大数量
     min_cnt = 20    #少于min_cnt数量的单词一律统计为<UNK>.
     hidden_units = 512  
     num_blocks = 6  #编码解码块大小
